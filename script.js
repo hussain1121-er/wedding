@@ -14,7 +14,7 @@ let wishDays = 10;
 var itsWeddingDay = false;
 let x = setInterval(function () {
   let currentYear = new Date().getFullYear();
-  let newYear = new Date(`Sept 8, 2023 00:00:00`);
+  let newYear = new Date(`Sept 8, 2023 00:20:00`);
   let now = new Date().getTime();
   let distance = newYear - now;
 
