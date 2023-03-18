@@ -58,6 +58,8 @@ function createHeart() {
     const heart = document.createElement("div");
     heart.className = "fas fa-heart";
     heart.style.left = (Math.random() * 90)+"vw";
+    var randomColor = Math.floor(Math.random()*16777215).toString(16);
+    heart.style.color = "#"+randomColor;
     heart.style.animationDuration = (Math.floor(Math.random() * 10) + 1)+"s"
     body.appendChild(heart);
 }
