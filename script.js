@@ -57,7 +57,7 @@ const body = document.querySelector("body");
 function createHeart() {
     const heart = document.createElement("div");
     heart.className = "fas fa-heart";
-    heart.style.left = (Math.random() * 100)+"vw";
+    heart.style.left = (Math.random() * 90)+"vw";
     heart.style.animationDuration = (Math.floor(Math.random() * 10) + 1)+"s"
     body.appendChild(heart);
 }
